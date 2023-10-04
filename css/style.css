@@ -264,6 +264,39 @@ h2 {
   margin-bottom: 10px;
 }
 
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right:8px;
+  border: 1px solid #afb1b8;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+.wwd-photos-conainer{
+  width: 370px;
+height: 70px;
+flex-shrink: 0;
+background: rgba(47, 48, 58, 0.80);
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 0;
+z-index: 1;
+}
+
+  .what-we-do-photos h3 {
+    color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
 .what-we-do span {
   width: 270px;
   height: 75px;
@@ -466,6 +499,7 @@ h2 {
 }
 
 .what-we-do-photos {
+  position: relative;
   padding: 0;
   max-width: 1200px;
   display: flex;
@@ -657,8 +691,10 @@ footer .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 
 }
+
 
 .is-hidden {
   visibility: hidden;
@@ -675,12 +711,5 @@ footer .logo {
 
 }
 
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right:8px;
-  border: 1px solid #afb1b8;
-  border-radius: 50%;
-  background: none;
-  cursor: pointer;
-}
+
+ 

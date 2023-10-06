@@ -15,7 +15,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-container {
@@ -29,10 +31,6 @@ body {
   display: flex;
   gap: 50px;
   padding-left: 0px;
-}
-
-.global-header {
-  border-bottom: 1px solid #ececec;
 }
 
 .contact-container {
@@ -248,7 +246,7 @@ h2 {
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  /*gap: 40px;*/
+  flex-wrap: wrap;
   margin: 94px auto auto;
 }
 
@@ -430,10 +428,14 @@ position: relative;
 }
 
 .product-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.product-container div {
+  max-width: 1200px;
 }
 
 .photo-filter-list {
@@ -477,6 +479,7 @@ position: relative;
   flex-wrap: wrap;
   padding-left: 0px;
   gap: 45px;
+  margin: 0;
 }
 
 .card-img {
@@ -542,6 +545,7 @@ position: relative;
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .our-team-container {
@@ -550,7 +554,7 @@ position: relative;
   padding: 0px;
   display: flex;
   justify-content: space-between;
-  /*gap: 30px;*/
+  flex-wrap: wrap;
 }
 
 .address {
@@ -581,6 +585,7 @@ position: relative;
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-left: 0;
   margin: 0;
 }
@@ -750,7 +755,7 @@ footer .logo {
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    
+    transform: scale(0.8);
 }
 
 .close-btn {

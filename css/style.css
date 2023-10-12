@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   height: 80px;
   border-bottom: 1px solid #ececec;
 }
@@ -376,7 +376,6 @@ h2 {
   line-height: 16px;
   letter-spacing: 0.42px;
   text-decoration: none;
-  margin-left: 200px;
   margin-top: 28px;
 }
 
@@ -389,7 +388,6 @@ h2 {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.42px;
-  margin-left: 200px;
   margin-top: 28px;
 }
 
@@ -662,15 +660,17 @@ footer .studio {
 }
 
 footer .logo {
-  margin-left: 200px;
   padding-bottom: 28px;
   margin-top: 60px;
 }
 
 .footer-container {
-  width: 1600px;
+  width: 1200px;
   display: flex;
-  padding-top: 60px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 60px;
+
 }
 
 .footer-social-media-container {
